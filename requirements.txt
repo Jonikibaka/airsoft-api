@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+ultralytics
+pydantic
+requests
+Pillow
+python-multipart
+python-dotenv
