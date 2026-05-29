@@ -58,7 +58,7 @@ API защищен ключом. Для работы через Swagger UI:
 ### 2. Пример запроса (cURL)
 ```bash
 curl -X POST "http://localhost:8000/predict" \
-  -H "Authorization: Bearer SuperSecretKeyForProduction2026" \
+  -H "Authorization: Bearer SuperSecretKey" \
   -H "Content-Type: application/json" \
   -d '{
     "post_id": "12345",
